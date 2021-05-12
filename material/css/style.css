@@ -1,0 +1,22 @@
+body {
+    font-family: "montserrat";
+}
+
+.navbar{
+    background-color: #171717;
+    font-weight: 300;
+}
+
+.nav-item{
+    margin-right: 24px;;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.nav-link span{
+    color: #F9B234 !important;
+    font-weight: 600;
+}
