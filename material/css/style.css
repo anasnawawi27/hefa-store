@@ -20,3 +20,17 @@ body {
     color: #F9B234 !important;
     font-weight: 600;
 }
+
+.carousel {
+    height: 450px;
+    background-color: #171717;
+    color: white;
+}
+
+.carousel h1{
+    font-family: "lora";
+}
+
+.carousel p {
+    font-weight: 200;
+}
