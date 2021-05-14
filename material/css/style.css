@@ -110,3 +110,7 @@ body {
     right: 0;
     bottom: 0;
 }
+
+footer nav a {
+    font-size: 12px;
+}
