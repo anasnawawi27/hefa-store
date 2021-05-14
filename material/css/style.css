@@ -27,10 +27,86 @@ body {
     color: white;
 }
 
+.features h3, .designers h3{
+    font-family: "lora";
+    font-weight: 600;
+    color: #1B2690;
+}
+
 .carousel h1{
     font-family: "lora";
 }
 
 .carousel p {
     font-weight: 200;
+}
+
+.features p, .designers p, footer p {
+    font-weight: 300;
+    color: #b7b7b7;
+
+}
+
+.figure h5 {
+    font-weight: 600;
+    color: #171717;
+}
+
+.figure-img{
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0,0,0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.figure-img a:hover{
+    opacity: 1;
+
+}
+
+.figure:hover figcaption h5{
+    color: #1B2690;
+}
+
+
+.designers h6{
+    font-weight: 600;
+}
+
+.circle-img{
+    border: 1px solid #D5D5D5;
+    padding: 5px;
+}
+
+.circle-img{
+    height: 122px;
+    width: 122px;
+    position: relative;
+}
+
+.designer-items:hover{
+    color: #1B2690;
+}
+
+.designer-items:hover .circle-img{
+    border: 1px solid #1B2690;
+    padding: 5px;
+}
+
+.designer-items:hover .circle-img img {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+.verified{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
