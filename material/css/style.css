@@ -114,3 +114,95 @@ body {
 footer nav a {
     font-size: 12px;
 }
+
+.navbar {
+    border-bottom: 0.5px solid #707070;
+}
+
+.breadcrumbs{
+    margin-top: 100px;
+}
+
+.product-thumbnail-container{
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 360px;
+    padding: 8px;
+    transform: translateY(-50px);
+}
+
+.figure-caption a {
+    text-decoration: none;
+}
+
+.wishlist-btn{
+    
+    background-color: #e9e9ee
+}
+.wishlist-btn:hover{
+    background-color: #c9c9cd;
+    color: aliceblue;
+}
+
+.designed-by {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 80px;
+}
+
+.profil-designer h6{
+    font-weight: 600;
+
+}
+
+.profil-designer p {
+    font-size: 14px;
+}
+
+.profil-designer{
+    transform: translateX(-20px);
+    margin-top: 10px;
+}
+
+.product-description{
+    height: 360px;
+    background-color: #E9E9EE;
+}
+
+.product-description .nav-tabs {
+    margin-top: 20px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+}
+
+.tab-content #description p {
+    font-size: 15px;
+    color: #707070;
+    line-height: 28px;
+}
+
+ .profile-review h6 {
+     font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-review .review {
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.star-muted{
+color: #C9C9CD;
+}
+
+.profile-review{
+    height: 280px;
+    overflow: auto;
+}
+
+
+
+
