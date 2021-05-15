@@ -163,7 +163,7 @@ footer nav a {
 }
 
 .product-description{
-    height: 360px;
+    height: 300px;
     background-color: #E9E9EE;
 }
 
@@ -175,6 +175,7 @@ footer nav a {
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-top: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .tab-content #description p {
@@ -201,6 +202,66 @@ color: #C9C9CD;
     height: 280px;
     overflow: auto;
 }
+
+.similar-product h4{
+    font-family: "lora";
+    font-weight: 600;
+    color: #182280;
+}
+
+.similar-product p{
+    color: #C9C9CD;
+}
+
+@media only screen and (max-width: 576px) {
+    .similar-product {
+        margin-top: 400px;
+    }
+
+    .title-similar-product h5 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 577px) {
+    .similar-product {
+        margin-top: 400px;
+    }
+    
+    .title-similar-product h5 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+  }
+
+  @media only screen and (min-width: 769px) {
+.similar-product {
+        margin-top: 300px;
+    }
+
+    .title-similar-product h5 {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    
+  }
+
+  @media only screen and (min-width: 993px) {
+ .similar-product {
+        margin-top: 200px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+ .similar-product {
+        margin-top: 150px;
+    }
+    .title-similar-product h5 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+  }
 
 
 
