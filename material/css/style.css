@@ -203,13 +203,13 @@ color: #C9C9CD;
     overflow: auto;
 }
 
-.similar-product h4{
+.similar-product h4, .title-cart h4, .success-checkout {
     font-family: "lora";
     font-weight: 600;
     color: #182280;
 }
 
-.similar-product p{
+.similar-product p, .title-cart p, .success-message {
     color: #C9C9CD;
 }
 
@@ -261,6 +261,25 @@ color: #C9C9CD;
         font-size: 20px;
         margin-bottom: 0;
     }
+  }
+
+  .info-cart-title {
+      font-weight: 600;
+      font-size: 22px;
+  }
+
+  .cart-harga {
+      font-size: 15px;
+      color: #1ABCBC;
+      font-weight: 500;
+  }
+
+ .grand-total{
+      color: #182280;
+  }
+
+  .total-title{
+      font-weight: 600;
   }
 
 
