@@ -27,7 +27,7 @@ body {
     color: white;
 }
 
-.features h3, .designers h3{
+.features h3, .designers h3,  .category-product h4{
     font-family: "lora";
     font-weight: 600;
     color: #1B2690;
@@ -41,7 +41,7 @@ body {
     font-weight: 200;
 }
 
-.features p, .designers p, footer p {
+.features p, .designers p, footer p,  .category-product p{
     font-weight: 300;
     color: #b7b7b7;
 
@@ -280,6 +280,10 @@ color: #C9C9CD;
 
   .total-title{
       font-weight: 600;
+  }
+
+  .category-product{
+      margin-top: 100px;
   }
 
 
