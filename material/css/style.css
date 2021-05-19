@@ -224,6 +224,16 @@ color: #C9C9CD;
         font-size: 16px;
         margin-bottom: 0;
     }
+
+    .product-description{
+        height: 700px;
+        background-color: #E9E9EE;
+    }
+
+    .category-product h5, .similar-product h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
   }
 
   @media only screen and (min-width: 577px) {
@@ -253,6 +263,7 @@ color: #C9C9CD;
  .similar-product {
         margin-top: 200px;
     }
+
   }
 
   @media only screen and (min-width: 1200px) {
