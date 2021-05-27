@@ -84,26 +84,38 @@
           <figure class="figure">
             <img src="single/p.png" class="figure-img img-fluid" />
             <figcaption
-              class="
-                figure-caption
-                product-thumbnail-container
-                d-flex
-                justify-content-between
-                m-auto
-              "
+              class="figure-caption product-thumbnail-container mx-auto"
             >
-              <a href="">
-                <img src="thumbnail/1.png" alt="" />
-              </a>
-              <a href="">
-                <img src="thumbnail/2.png" alt="" />
-              </a>
-              <a href="">
-                <img src="thumbnail/3.png" alt="" />
-              </a>
-              <a href="">
-                <img src="thumbnail/4.png" alt="" />
-              </a>
+              <ul class="d-flex justify-content-around p-0 m-0">
+                <li class="list-unstyled" style="position: relative">
+                  <img
+                    src="thumbnail/1.png"
+                    onclick="viewImage('single/p.png')"
+                    class="img-1"
+                  />
+                  <div class="preview-1 preview-active"></div>
+                </li>
+                <li class="list-unstyled" style="position: relative">
+                  <img
+                    src="thumbnail/2.png"
+                    onclick="viewImage('single/p3.png')"
+                    class="img-2"
+                  />
+
+                  <div class="preview-2"></div>
+                </li>
+                <li class="list-unstyled" style="position: relative">
+                  <img
+                    src="thumbnail/3.png"
+                    onclick="viewImage('single/p4.png')"
+                    class="img-3"
+                  />
+                  <div class="preview-3"></div>
+                </li>
+                <li class="list-unstyled">
+                  <img src="thumbnail/4.png" alt="" />
+                </li>
+              </ul>
             </figcaption>
           </figure>
         </div>
@@ -412,7 +424,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
             <figure class="figure">
               <img src="similar/1.png" class="figure-img img-fluid" />
               <figcaption class="figure-caption">
@@ -435,7 +447,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
             <figure class="figure">
               <img src="similar/2.png" class="figure-img img-fluid" />
               <figcaption class="figure-caption">
@@ -458,7 +470,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4">
             <figure class="figure">
               <img src="similar/3.png" class="figure-img img-fluid" />
               <figcaption class="figure-caption">
@@ -495,13 +507,13 @@
           </div>
           <div class="col-4 text-right d-flex mr-3 mr-xl-0">
             <a href="">
-              <img src="social/fb.png" class="mx-1 mx-xl-0" />
+              <img src="social/fb.png" class="mx-1 mx-xl-2" />
             </a>
             <a href="">
-              <img src="social/tw.png" class="mx-1 mx-xl-0" />
+              <img src="social/tw.png" class="mx-1 mx-xl-2" />
             </a>
             <a href="">
-              <img src="social/ig.png" class="mx-1 mx-xl-0" />
+              <img src="social/ig.png" class="mx-1 mx-xl-2" />
             </a>
           </div>
         </div>
@@ -542,5 +554,26 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function viewImage(parameter) {
+        document.querySelector(".figure-img").src = parameter;
+      }
+
+      $(".img-1").on("click", function () {
+        $(".preview-2").removeClass("preview-active");
+        $(".preview-3").removeClass("preview-active");
+        $(".preview-1").addClass("preview-active");
+      });
+      $(".img-2").on("click", function () {
+        $(".preview-2").addClass("preview-active");
+        $(".preview-3").removeClass("preview-active");
+        $(".preview-1").removeClass("preview-active");
+      });
+      $(".img-3").on("click", function () {
+        $(".preview-1").removeClass("preview-active");
+        $(".preview-2").removeClass("preview-active");
+        $(".preview-3").addClass("preview-active");
+      });
+    </script>
   </body>
 </html>

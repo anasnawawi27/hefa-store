@@ -134,6 +134,15 @@ footer nav a {
     transform: translateY(-50px);
 }
 
+.preview-active{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 2px solid #1abcbc;
+}
+
 .figure-caption a {
     text-decoration: none;
 }
@@ -218,7 +227,7 @@ color: #C9C9CD;
 
 @media only screen and (max-width: 576px) {
     .similar-product {
-        margin-top: 400px;
+        margin-top: 350px;
     }
 
     .title-similar-product h5 {
@@ -231,9 +240,22 @@ color: #C9C9CD;
         background-color: #E9E9EE;
     }
 
+    .product-description .nav-link{
+        font-size: 13px;
+        font-weight: 600;
+    }
+
     .category-product h5, .similar-product h5 {
         font-size: 20px;
         margin-top: 10px;
+    }
+
+    .features h5{
+        font-size: 17px;
+    }
+
+    .profile-review{
+        height: 600px;
     }
   }
 
